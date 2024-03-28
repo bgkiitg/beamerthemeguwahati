@@ -56,7 +56,7 @@
 \setbeamertemplate{frametitle}{
 
     \begin{beamercolorbox}[wd=\paperwidth,ht=2.75ex,dp=1.375ex]{frametitle}
-        \hspace*{2ex}\insertframetitle \hfill {\small\insertframenumber} \hspace*{1ex}
+        \hspace*{2ex}\insertframetitle \hfill \scalebox{.5}{\small\insertframenumber\  /\ \inserttotalframenumber } \hspace*{1ex}
     \end{beamercolorbox}
     
     \par
@@ -64,13 +64,13 @@
     \begin{tikzpicture}[remember picture,overlay]
     
     \coordinate (LeftEnd) at (-1, 0.5);
-    \coordinate (LeftEndUnder) at (-1, 0.1);
+    \coordinate (LeftEndUnder) at (-1, 0.4);
     \coordinate (RightEnd) at (4,0.5);
     \draw[oxfordblue, thick, fill=oxfordblue] (LeftEnd)--(RightEnd)--(LeftEndUnder) -- (LeftEnd);
 
     \coordinate (RightEnd) at (\paperwidth, 0.1);
     \coordinate (PreRightEnd) at (10, 0.1);
-    \draw[oxfordblue,thick] (RightEnd) -- (PreRightEnd);
+    %\draw[oxfordblue,thick] (RightEnd) -- (PreRightEnd);
     
     \end{tikzpicture}
 
@@ -82,3 +82,16 @@
 
 % --- Sidebar of Content ---
 % Might add later (next version)
+
+\setbeamertemplate{background}[grid][step=0.5cm, color=blue!4!white]
+
+% --  Bullet Styles  --
+% set the itemize item symbol as a diamond
+\setbeamertemplate{itemize item}{\scriptsize$\blacktriangleright$}
+% set the itemize subitem symbol as a triangle
+\setbeamertemplate{itemize subitem}{\scriptsize$\diamond$}
+% set the itemize subsubitem symbol as a circle with a dot
+\setbeamertemplate{itemize subsubitem}{\scriptsize$\odot$}
+
+
+
