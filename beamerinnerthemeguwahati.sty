@@ -53,10 +53,38 @@
 \end{tikzpicture}}
 
 % --- Header ---
+
+\newcommand{\shadedcircle}[2]{%
+    \begin{tikzpicture}
+        % Define the parameters
+        \def\a{#1} % Numerator
+        \def\b{#2} % Denominator
+        \def\r{2} % Radius of the circle
+
+        % Draw the circle
+        \draw (0,0) circle (\r);
+
+        % Calculate the angle for shading
+        \pgfmathsetmacro{\angle}{360*\a/\b}
+
+        % Shade the sector of the circle
+         % Check if a equals b
+        \ifnum\a=\b
+            % Fully shade the circle
+            \fill[blue!50] (0,0) circle (\r);
+        \else
+            % Shade the sector of the circle
+            \fill[blue!50] (0,0) -- (\angle:\r) arc (\angle:360:\r) -- cycle;
+        \fi
+    \end{tikzpicture}%
+  }
+
+  
+
 \setbeamertemplate{frametitle}{
 
     \begin{beamercolorbox}[wd=\paperwidth,ht=2.75ex,dp=1.375ex]{frametitle}
-        \hspace*{2ex}\insertframetitle \hfill \scalebox{.5}{\small\insertframenumber\  /\ \inserttotalframenumber } \hspace*{1ex}
+        \hspace*{2ex}\insertframetitle \hfill \scalebox{.75}{\scalebox{.1}{\shadedcircle{\insertframenumber}{\inserttotalframenumber}}} \hspace*{1ex}
     \end{beamercolorbox}
     
     \par
