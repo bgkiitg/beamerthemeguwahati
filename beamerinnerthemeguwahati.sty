@@ -54,37 +54,42 @@
 
 % --- Header ---
 
-\newcommand{\shadedcircle}[2]{%
+\newcommand{\shadedcircle}[3]{%
     \begin{tikzpicture}
         % Define the parameters
-        \def\a{#1} % Numerator
+        \def\a{#1} % Numerator+1
         \def\b{#2} % Denominator
         \def\r{2} % Radius of the circle
+        \def\c{#3} % Color
 
         % Draw the circle
-        \draw (0,0) circle (\r);
-
+        \draw[\c] (0,0) circle (\r);
+        
         % Calculate the angle for shading
-        \pgfmathsetmacro{\angle}{360*\a/\b}
+        \pgfmathsetmacro{\angle}{90 - 360*(\a-1)/\b}
 
         % Shade the sector of the circle
          % Check if a equals b
         \ifnum\a=\b
             % Fully shade the circle
-            \fill[blue!50] (0,0) circle (\r);
+            \fill[\c] (0,0) circle (\r);
         \else
             % Shade the sector of the circle
-            \fill[blue!50] (0,0) -- (\angle:\r) arc (\angle:360:\r) -- cycle;
+            % \fill[blue!50] (0,0) -- (\angle:\r) arc (\angle:360:\r) -- cycle;
+            \fill[\c] (0,0) -- (90:\r) arc (90:\angle:\r) -- cycle;        
+        
         \fi
     \end{tikzpicture}%
   }
 
   
 
-\setbeamertemplate{frametitle}{
-
+  \setbeamertemplate{frametitle}{
+    \vspace*{-.31cm}
+    \hspace*{-.275cm}
     \begin{beamercolorbox}[wd=\paperwidth,ht=2.75ex,dp=1.375ex]{frametitle}
-        \hspace*{2ex}\insertframetitle \hfill \scalebox{.75}{\scalebox{.1}{\shadedcircle{\insertframenumber}{\inserttotalframenumber}}} \hspace*{1ex}
+      \hspace*{2ex}\insertframetitle \hfill \scalebox{.75}{\scalebox{.1}{\shadedcircle{\insertframenumber}{\inserttotalframenumber}{blue!10!white}}}  \hspace*{1ex}
+       
     \end{beamercolorbox}
     
     \par
