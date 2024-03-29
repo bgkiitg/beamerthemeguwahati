@@ -1,3 +1,17 @@
+Requirements
+You will need the following fonts
+
+Chaparral Pro Display   
+Fontin
+Monaco
+Comic Sans MS Regular
+Myriad Pro
+The easiest way to get the fonts working is to use  XeTeX or LuaTeX and the fontspec package. 
+They can use any TTF font installed on the system. 
+For Linux this means both the system wide fonts and any fonts you put into ~/.fonts/
+
+Otherwise you may edit the beamerfontthemeguwahati.sty
+
 Installation Instructions
 
 1. For a local installation you can simply copy all files into a folder and start modifying guwahati-example.tex
@@ -12,9 +26,10 @@ Installation Instructions
 
 5. Create a new folder to store the theme
 
-    $ sudo mkdir /usr/local/share/texmf/tex/latex/beamer
+    $ sudo mkdir /usr/local/share/texmf/tex/latex/beamerguwahati
 
 6. Copy the files into the newly created folder
 
 7. Run texhash command
    $sudo texhash
+
