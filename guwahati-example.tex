@@ -1,6 +1,12 @@
 \documentclass{beamer}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc} 
+
+% Load BibLaTeX and choose a style (e.g., numeric, alphabetic, or authoryear)
+\usepackage[style=numeric, backend=biber]{biblatex}
+
+% Point to your bibliography file
+\addbibresource{mybib.bib}
+
+
 \title{There  is no largest prime number}
 \date[ISPN '80]{\scalebox{1.2}{\fontinsc{27th International Symposium of Prime Numbers}}}
 \titlegraphic{\includegraphics[width=2cm]{logos/logo.pdf}}
@@ -9,46 +15,50 @@
 
 \usetheme{guwahati}
 
+
 \begin{document}
 
-
 \begin{frame}
-  \titlepage
+	\titlepage
 \end{frame}
 
 \frame{
-  \frametitle{Check this out}
+	\frametitle{Check this out}
 
-  $\alpha \rightarrow \beta $
-}
-
-
-\frame{
-  \frametitle{ New Slide}
-  
-\begin{itemize}
-\item This is line 1
-\item This is line 2
-\end{itemize}
-
-This is some text
-{\sffamily This is some text in Sans Serif.}
-
-\texttt{This is some text in Mono Font.}
+	$\alpha \rightarrow \beta $
 }
 
 \frame{
-  \frametitle{Check Again }
-  New content
+	\frametitle{ New Slide}
+
+	\begin{itemize}
+		\item This is line 1\cite{CassaigneKS07a}
+		\item This is line 2
+	\end{itemize}
+
+	This is some text
+		{\sffamily This is some text in Sans Serif.\cite{Lepisto:1994}}
+
+	\texttt{This is some text in Mono Font.}
 }
 
 \frame{
-  \frametitle{Check Again }
-  New content
+	\frametitle{Check Again\cite{DavidWilliams} }
+	New content
 }
 
 \frame{
-  \frametitle{Check Again }
-  New content
+	\frametitle{Check Again\cite{KnuthMP77} }
+	New content
 }
+
+\frame{
+	\frametitle{Check Again\cite{DBLP:journals/iandc/SinclairJ89} }
+	New content
+}
+
+\begin{frame}[allowframebreaks]{References}
+	\printbibliography[heading=none]
+\end{frame}
 \end{document}
+

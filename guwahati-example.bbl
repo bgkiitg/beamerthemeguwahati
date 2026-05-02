@@ -1,0 +1,226 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{CassaigneKS07a}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=21783768be2a06edbd88da8eba9f4873}{%
+           family={Cassaigne},
+           familyi={C\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0c748d0ce016c59a4b93d61249b5355a}{%
+           family={Karhumäki},
+           familyi={K\bibinitperiod},
+           given={Juhani},
+           giveni={J\bibinitperiod}}}%
+        {{hash=34befa292f151a5f12dd342fd2430427}{%
+           family={Salmela},
+           familyi={S\bibinitperiod},
+           given={Petri},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=d55aa47db774d06b0a16c4a66d9cc4ad}{%
+           family={Kunc},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8254f3f853e6486d62f5805a295f8d1e}{%
+           family={Okhotin},
+           familyi={O\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Turku Centre for Computer Science}%
+      }
+      \strng{namehash}{8824bd05cdb3073a97c62fd36d8dfe8e}
+      \strng{fullhash}{8824bd05cdb3073a97c62fd36d8dfe8e}
+      \strng{bibnamehash}{8824bd05cdb3073a97c62fd36d8dfe8e}
+      \strng{authorbibnamehash}{8824bd05cdb3073a97c62fd36d8dfe8e}
+      \strng{authornamehash}{8824bd05cdb3073a97c62fd36d8dfe8e}
+      \strng{authorfullhash}{8824bd05cdb3073a97c62fd36d8dfe8e}
+      \strng{editorbibnamehash}{2e4e055a8557b21a98e7e8bd51099e0b}
+      \strng{editornamehash}{2e4e055a8557b21a98e7e8bd51099e0b}
+      \strng{editorfullhash}{2e4e055a8557b21a98e7e8bd51099e0b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Theory and Applications of Language Equations, Proceedings of the 1st International Workshop}
+      \field{month}{7}
+      \field{number}{44}
+      \field{series}{{TUCS} General Publication}
+      \field{title}{Conjugacy of Finite Biprefix Codes}
+      \field{year}{2007}
+      \field{pages}{33\bibrangedash 42}
+      \range{pages}{10}
+      \keyw{Language equations,biprefix codes,conjugacy}
+    \endentry
+    \entry{KnuthMP77}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ec08e6f01da5f3814f28a70c89c64656}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=856766a8ac8718dfe82b48715f2384a9}{%
+           family={Jr.},
+           familyi={J\bibinitperiod},
+           given={James\bibnamedelimb H.\bibnamedelimi Morris},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=068b10476f97392aa59f421bb931fa88}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={Vaughan\bibnamedelima R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f94be64badb5118ae4bc9c2847d17054}
+      \strng{fullhash}{f94be64badb5118ae4bc9c2847d17054}
+      \strng{bibnamehash}{f94be64badb5118ae4bc9c2847d17054}
+      \strng{authorbibnamehash}{f94be64badb5118ae4bc9c2847d17054}
+      \strng{authornamehash}{f94be64badb5118ae4bc9c2847d17054}
+      \strng{authorfullhash}{f94be64badb5118ae4bc9c2847d17054}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM J. Comput.}
+      \field{number}{2}
+      \field{title}{Fast Pattern Matching in Strings}
+      \field{volume}{6}
+      \field{year}{1977}
+      \field{pages}{323\bibrangedash 350}
+      \range{pages}{28}
+    \endentry
+    \entry{Lepisto:1994}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=b6a9e45010700136cc153fdcc1f4a233}{%
+           family={Lepistö},
+           familyi={L\bibinitperiod},
+           given={Arto},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=29046cb5dcac6c17da6803fc530790d0}{%
+           family={Rozenberg},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7103213717ab02cf663979f60738d8d7}{%
+           family={Salomaa},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WS}%
+      }
+      \strng{namehash}{b6a9e45010700136cc153fdcc1f4a233}
+      \strng{fullhash}{b6a9e45010700136cc153fdcc1f4a233}
+      \strng{bibnamehash}{b6a9e45010700136cc153fdcc1f4a233}
+      \strng{authorbibnamehash}{b6a9e45010700136cc153fdcc1f4a233}
+      \strng{authornamehash}{b6a9e45010700136cc153fdcc1f4a233}
+      \strng{authorfullhash}{b6a9e45010700136cc153fdcc1f4a233}
+      \strng{editorbibnamehash}{b7db0bdfc284164eefd6fa293085560a}
+      \strng{editornamehash}{b7db0bdfc284164eefd6fa293085560a}
+      \strng{editorfullhash}{b7db0bdfc284164eefd6fa293085560a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Developments in Language Theory}
+      \field{title}{Repetitions in {Kolakoski} sequence}
+      \field{year}{1994}
+      \field{pages}{130\bibrangedash 143}
+      \range{pages}{14}
+    \endentry
+    \entry{DBLP:journals/iandc/SinclairJ89}{article}{}
+      \name{author}{2}{}{%
+        {{hash=80a5f7e7145911c85bada45cfd9e7161}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ebc1c91740e5dcf530d41f9715a6f586}{%
+           family={Jerrum},
+           familyi={J\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5268f63f104f4668110401d058f09217}
+      \strng{fullhash}{5268f63f104f4668110401d058f09217}
+      \strng{bibnamehash}{5268f63f104f4668110401d058f09217}
+      \strng{authorbibnamehash}{5268f63f104f4668110401d058f09217}
+      \strng{authornamehash}{5268f63f104f4668110401d058f09217}
+      \strng{authorfullhash}{5268f63f104f4668110401d058f09217}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inf. Comput.}
+      \field{number}{1}
+      \field{title}{Approximate Counting, Uniform Generation and Rapidly Mixing Markov Chains}
+      \field{volume}{82}
+      \field{year}{1989}
+      \field{pages}{93\bibrangedash 133}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1016/0890-5401(89)90067-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/0890-5401(89)90067-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/0890-5401(89)90067-9
+      \endverb
+    \endentry
+    \entry{DavidWilliams}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d1e72ac43350dd0d17b7cb6776696ca6}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d1e72ac43350dd0d17b7cb6776696ca6}
+      \strng{fullhash}{d1e72ac43350dd0d17b7cb6776696ca6}
+      \strng{bibnamehash}{d1e72ac43350dd0d17b7cb6776696ca6}
+      \strng{authorbibnamehash}{d1e72ac43350dd0d17b7cb6776696ca6}
+      \strng{authornamehash}{d1e72ac43350dd0d17b7cb6776696ca6}
+      \strng{authorfullhash}{d1e72ac43350dd0d17b7cb6776696ca6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Probability with Martingales}
+      \field{year}{1991}
+      \verb{doi}
+      \verb 10.1017/CBO9780511813658
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
